@@ -1,7 +1,7 @@
 <div id="itemList"></div>
 
 <script id="itemTemplate" type="text/x-jsrender">
-    <div class="group alert alert-success>
+    <div class="group alert alert-success">
         <div class="date">{{:date}}</div>
         <div class="events">
             <div id="event_{{:id}}" class="item" data-id="{{:id}}">
@@ -10,7 +10,7 @@
                         <img class="event-image" src="{{:image}}" alt="{{:name}}" />
                     </a>
                 {{/if}}
-                <h3 class="title">
+                <h3 class="title alert alert-success">
                     <a href="#" class="details-link wh-light-text">{{:name}}</a>
                 </h3>
                 {{:description}}
