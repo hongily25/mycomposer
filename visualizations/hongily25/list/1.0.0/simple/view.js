@@ -6,12 +6,14 @@ var VISUALIZATION = (function (visualization, window, document) {
     	styles: [
             'https://fonts.googleapis.com/css?family=Cairo:400,300',
             'https://fonts.googleapis.com/css?family=Open+Sans:300',
-			'simple/css/styles.css'
+			'simple/css/styles.css',
+            'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'
         ],
 
         scripts: [
             '~/jquery/1.11.1/jquery-1.11.1.min',
-            'simple/js/jsrender.min.js'
+            'simple/js/jsrender.min.js',
+            'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'
         ]
     };
 
