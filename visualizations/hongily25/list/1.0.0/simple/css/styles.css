@@ -66,6 +66,15 @@ h2.title {
     margin: 20px;
 }
 
+.col-third {
+	position: relative;
+	display:inline;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+
 .wrapper {
     hoverflow: hidden;
 }
