@@ -164,5 +164,11 @@ h2.title {
 }
 
 .details-link {
-    color: #000;
+    display: inline-block;
+    background-color: blue;
+    color: #FFF;
+
 }
+
+
+
