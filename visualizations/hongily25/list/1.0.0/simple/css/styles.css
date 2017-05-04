@@ -58,3 +58,11 @@ h2.title {
     padding-top:15px;
 }
 */
+
+.col-3 {
+    background-color: #f2f2f2;
+    border: 1px solid ##e7e7e7;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
