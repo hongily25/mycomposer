@@ -107,6 +107,8 @@
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
     overflow:auto;
+    display: flex;
+    align-items: center;
 }
 
 .details-link {
