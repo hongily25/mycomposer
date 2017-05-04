@@ -162,3 +162,7 @@ h2.title {
 	-webkit-border-radius: 10px;
     overflow:hidden;
 }
+
+.details-link {
+    color: #FFF;
+}
