@@ -26,20 +26,10 @@ var VISUALIZATION = (function (visualization, window, document) {
         // Sample visualization using JsRender for templates
         // http://www.jsviews.com/
 
-        console.log('renders hover');
-        
-        $('.hover').hover(function(){
-			$(this).addClass('flip');
-            console.log('adding class flip')
-		},function(){
-			$(this).removeClass('flip');
-            console.log('removing class flip')
-		});
-        
         // Set defaults 
         var defaults = {
             // default setting value used to hide or show images for event
-            showImage: true
+            showImage: false
         }
         var options = _.assign({}, defaults, settings);
 
