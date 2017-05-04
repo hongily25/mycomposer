@@ -1,8 +1,10 @@
 <div id="itemList"></div>
 
 <script id="itemTemplate" type="text/x-jsrender">
-    <div class="group">
-        <div class="date">{{:date}}</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                        <div class="date">{{:date}}</div>
         <div class="events">
             <div id="event_{{:id}}" class="item" data-id="{{:id}}">
                 {{if image}}
@@ -25,5 +27,11 @@
                 {{/if}}
             </div>
         </div>
+            </div>
+
+
+
+
+        </div>
     </div>
-</script>
+</script> 
