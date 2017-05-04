@@ -15,6 +15,8 @@
             </div>
             <div class="back">
                 <div class="box2">
+                    {{:description}}
+                {{if primaryAction}}
                     <a href="{{:primaryAction.url}}" title="{{:primaryAction.url}}" target="_blank" class="primary-action wh-dark">
                         {{if primaryAction.label}}
                             {{:primaryAction.label}}
@@ -22,7 +24,7 @@
                             ...
                         {{/if}}
                     </a>
-
+                {{/if}}
                 </div>
             </div>
         </div>
