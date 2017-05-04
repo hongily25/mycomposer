@@ -1,6 +1,5 @@
 
 .col-3 {
-    background-color: #bdd3de;
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
@@ -26,7 +25,6 @@
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
     height: 300px;
-    box-shadow: 15px 2px 32px -6px rgba(51,51,51,1)
 }
 
 .panel .front,
