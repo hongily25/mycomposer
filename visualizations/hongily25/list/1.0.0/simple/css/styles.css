@@ -74,8 +74,7 @@ h2.title {
 
 .panel {
 	margin: 0 auto;
-	height: 130px;  
-	position: relative;
+	height: 500px;  
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
 }
@@ -87,7 +86,6 @@ h2.title {
 	
 .panel .front {
 	height: inherit;
-	position: absolute;
 	top: 0;
 	z-index: 900;
 	text-align: center;
@@ -106,7 +104,6 @@ h2.title {
 
 .panel .back {
 	height: inherit;
-	position: absolute;
 	top: 0;
 	z-index: 1000;
 	-webkit-transform: rotateY(-180deg);
