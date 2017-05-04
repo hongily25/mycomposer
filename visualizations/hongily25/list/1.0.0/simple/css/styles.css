@@ -76,7 +76,6 @@ h2.title {
 	margin: 0 auto;
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
-    display: flex;
 }
 
 .panel .front,
