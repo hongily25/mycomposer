@@ -10,12 +10,22 @@
             <div class="front">
                 <div class="box1">
                     {{:date}} <br>
-                    <a href="#" class="details-link"><h4 class="name">{{:name}}</h4></a>
+                    <h4 class="name">{{:name}}</h4>
                 </div>
             </div>
             <div class="back">
                 <div class="box2">
-                    <a href="#" class="details-link">{{:description}}</a></div>
+                    {{:description}}
+                {{if primaryAction}}
+                    <a href="{{:primaryAction.url}}" title="{{:primaryAction.url}}" target="_blank" class="primary-action wh-dark">
+                        {{if primaryAction.label}}
+                            {{:primaryAction.label}}
+                        {{else}}
+                            ...
+                        {{/if}}
+                    </a>
+                {{/if}}
+                </div>
             </div>
         </div>
     </div>
