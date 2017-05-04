@@ -134,7 +134,7 @@ h2.title {
 .box1{
 	background-color: #14bcc8;
 	width: 250px;
-	height: 150px;
+
 	margin: 0 auto;
 	padding: 20px;
 	border-radius: 10px;
@@ -144,7 +144,6 @@ h2.title {
 .box2{
 	background-color: #ff7e70;
 	width: 250px;
-	height: 150px;
 	margin: 0 auto;
 	padding: 20px;
 	border-radius: 10px;
