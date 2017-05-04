@@ -76,6 +76,7 @@ h2.title {
 	margin: 0 auto;
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
+    display: flex;
 }
 
 .panel .front,
@@ -119,18 +120,21 @@ h2.title {
 }
 .panel:hover .front {
 	z-index: 900;
+    position: absolute;
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 }
 .panel:hover .back {
 	z-index: 1000;
+    position: absolute;
 	-webkit-transform: rotateX(0deg) rotateY(0deg);
 	-moz-transform: rotateX(0deg) rotateY(0deg);
 }
 .box1{
 	background-color: #14bcc8;
 	margin: 0 auto;
-    width: 100%;
+    width: 250px;
+	height: 150px;
 	padding: 20px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -139,6 +143,8 @@ h2.title {
 .box2{
 	background-color: #ff7e70;
 	margin: 0 auto;
+    width: 250px;
+	height: 150px;
     width:100%;
 	padding: 20px;
 	border-radius: 10px;
