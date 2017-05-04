@@ -29,7 +29,7 @@ var VISUALIZATION = (function (visualization, window, document) {
         // Set defaults 
         var defaults = {
             // default setting value used to hide or show images for event
-            showImage: false
+            showImage: true
         }
         var options = _.assign({}, defaults, settings);
 
