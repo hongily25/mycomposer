@@ -147,9 +147,9 @@ h2.title {
 	margin: 0 auto;
     width: 250px;
 	height: 150px;
-    width:100%;
 	padding: 20px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+    overflow:hidden;
 }
