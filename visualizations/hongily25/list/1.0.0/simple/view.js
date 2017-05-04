@@ -27,6 +27,7 @@ var VISUALIZATION = (function (visualization, window, document) {
         // http://www.jsviews.com/
 
         console.log('renders hover');
+        
         $('.hover').hover(function(){
 			$(this).addClass('flip');
             console.log('adding class flip')
