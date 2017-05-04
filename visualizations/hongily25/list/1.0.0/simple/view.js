@@ -25,6 +25,15 @@ var VISUALIZATION = (function (visualization, window, document) {
         // Build visualization
         // Sample visualization using JsRender for templates
         // http://www.jsviews.com/
+
+        console.log('renders hover');
+        $('.hover').hover(function(){
+			$(this).addClass('flip');
+            console.log('adding class flip')
+		},function(){
+			$(this).removeClass('flip');
+            console.log('removing class flip')
+		});
         
         // Set defaults 
         var defaults = {
