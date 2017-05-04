@@ -160,14 +160,16 @@ h2.title {
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-    overflow:hidden;
+    overflow:auto;
 }
 
 .details-link {
     display: inline-block;
-    background-color: blue;
     color: #FFF;
+}
 
+.details-link:hover {
+    text-decoration: none;
 }
 
 
