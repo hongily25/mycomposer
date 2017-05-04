@@ -25,7 +25,7 @@
 	margin: 0 auto;
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
-    height: 130px;
+    height: 300px;
 }
 
 .panel .front,
@@ -86,7 +86,7 @@
     color: #333;
 	margin: 0 auto;
     width: 250px;
-	height: 350px;
+	height: 300px;
 	padding: 20px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -97,7 +97,7 @@
     color: #FFF;
 	margin: 0 auto;
     width: 250px;
-	height: 350px;
+	height: 300px;
 	padding: 20px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
