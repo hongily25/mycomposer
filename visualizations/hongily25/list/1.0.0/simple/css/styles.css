@@ -91,7 +91,7 @@
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: center;
 }
 .box2{
