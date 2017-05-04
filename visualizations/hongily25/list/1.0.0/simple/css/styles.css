@@ -121,12 +121,12 @@ h2.title {
 		 -o-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
-.panel.flip .front {
+.panel:hover .front {
 	z-index: 900;
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 }
-.panel.flip .back {
+.panel:hover .back {
 	z-index: 1000;
 	-webkit-transform: rotateX(0deg) rotateY(0deg);
 	-moz-transform: rotateX(0deg) rotateY(0deg);
