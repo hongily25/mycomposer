@@ -127,7 +127,7 @@
 
 .details-link:hover, .details-link:focus {
     text-decoration: none;
-	color: inherit;
+	color: -webkit-link;
 }
 
 a.read-more {
