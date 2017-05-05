@@ -8,11 +8,11 @@
     <div class="col-3 events wh-dark">
         <div class="hover panel item" id="event_{{:id}}" data-id="{{:id}}">
             <div class="front">
-                <div class="box1">
-                                     {{if image}}
-                    <a href="#" class="details-link">
-                        <img class="event-image" src="{{:image}}" alt="{{:name}}" style="width:50px" />
-                    </a>
+                {if image}}
+                <div class="box1" style="background-image:url({{:image}})">
+                    {{else}}
+                        <div class="box1">
+
                 {{/if}}
                     <h4 class="wh-dark-text">{{:date}}</h4>
                     <h2 class="name wh-dark-text">{{:name}}</h2>
