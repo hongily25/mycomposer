@@ -107,12 +107,7 @@
 	-webkit-border-radius: 10px;
     overflow:auto;
     display: flex;
-    align-items: flex-start;
-}
-
-.box2 > a {
-	display: flex;
-	align-items: center;
+    align-items: center;
 }
 
 .details-link {
