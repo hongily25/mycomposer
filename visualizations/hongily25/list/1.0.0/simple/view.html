@@ -8,13 +8,21 @@
     <div class="col-3 events wh-dark">
         <div class="hover panel item" id="event_{{:id}}" data-id="{{:id}}">
             <div class="front">
-                <div class="box1"
+                
                 {{if image}}
-                     style="background-image:url({{:image}})" 
-                {{/if}}
-                >
-                    <h4 class="wh-dark-text">{{:date}}</h4>
+                     <div class="box1" style="background-image:url({{:image}});padding:0"> 
+                     <div style="background-color: rgba(215,215,215,.8);width: 100%;height: 100%;display: flex;flex-flow: column nowrap;justify-content: center;">
+                         <h4 class="wh-dark-text">{{:date}}</h4>
+                         <h2 class="name wh-dark-text">{{:name}}</h2>
+                    </div>
+
+                    {{else}}
+                     <div class="box1">
+                         <h4 class="wh-dark-text">{{:date}}</h4>
                     <h2 class="name wh-dark-text">{{:name}}</h2>
+                {{/if}}
+                
+                    
                 </div>
             </div>
             <div class="back">
