@@ -125,7 +125,7 @@
 
 .details-link:hover, .details-link:focus {
     text-decoration: none;
-	color: initial;
+	color: #333;
 }
 
 a.read-more {
