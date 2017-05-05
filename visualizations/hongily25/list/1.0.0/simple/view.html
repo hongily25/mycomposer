@@ -11,6 +11,11 @@
                 <div class="box1">
                     <h4 class="wh-dark-text">{{:date}}</h4>
                     <h2 class="name wh-dark-text">{{:name}}</h2>
+                              {{if image}}
+                    <a href="#" class="details-link">
+                        <img class="event-image" src="{{:image}}" alt="{{:name}}" />
+                    </a>
+                {{/if}}
                 </div>
             </div>
             <div class="back">
