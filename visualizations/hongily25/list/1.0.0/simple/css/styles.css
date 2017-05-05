@@ -136,6 +136,10 @@ a.read-more {
 	border-radius: 5px;
 }
 
+a.read-more:hover, a.read-more:focus {
+	color: #333;
+}
+
 @media(max-width:768px) {
 	.col-3 {
 		max-width:100% !important;
