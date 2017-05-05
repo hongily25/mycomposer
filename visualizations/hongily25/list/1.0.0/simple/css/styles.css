@@ -110,6 +110,11 @@
     align-items: flex-start;
 }
 
+.box2 > a {
+	display: flex;
+	align-items: center;
+}
+
 .details-link {
     display: inline-block;
     color: #FFF;
