@@ -127,7 +127,6 @@
 
 .details-link:hover, .details-link:focus {
     text-decoration: none;
-	color: #FFF;
 }
 
 a.read-more {
@@ -135,6 +134,10 @@ a.read-more {
 	padding: 5px 25px;
 	border-radius: 5px;
 	margin-top: 20px;
+}
+
+a.read-more:hover {
+	color: #FFF;
 }
 
 @media(max-width:768px) {
