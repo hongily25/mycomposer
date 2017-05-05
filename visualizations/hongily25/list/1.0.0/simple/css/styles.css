@@ -6,7 +6,7 @@
 
 .col-3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: lightseagreen;
+    background-color: #ffcf40;
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
@@ -90,7 +90,7 @@
 	-moz-transform: rotateX(0deg) rotateY(0deg);
 }
 .box1{
-	background-color: #43B6B1;
+	background-color: #a67c00;
     color: #333;
 	margin: 0 auto;
     width: 250px;
@@ -105,7 +105,7 @@
     overflow: auto;
 }
 .box2{
-	background-color: #005963;
+	background-color: #a67c00;
     color: #FFF;
 	margin: 0 auto;
     width: 250px;
