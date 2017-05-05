@@ -1,8 +1,14 @@
+.row {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
 
 .col-3 {
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
+	flex: 0 1 300px;
 }
 
 .col_third {
