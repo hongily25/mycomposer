@@ -123,12 +123,10 @@
 
 .details-link {
     display: inline-block;
-    color: #FFF;
 }
 
 .details-link:hover, .details-link:focus {
     text-decoration: none;
-    color: #FFF;
 }
 
 a.read-more {
