@@ -11,7 +11,7 @@
                 {{if image}}
                      <div class="box1" style="background-image:url({{:image}});padding:0;background-size:cover;background-position:center"> 
                      <div class="image-box">
-                         <img src="{{:image}}" style="border-radius:40px;height:100px;width:100px;margin-bottom:20px">
+                         <img src="{{:image}}" style="border-radius:50px;height:100px;width:100px;margin-bottom:20px">
                          <h4 class="wh-dark-text">{{:date}}</h4>
                          <h2 class="name wh-dark-text">{{:name}}</h2>
                     </div>
@@ -27,15 +27,15 @@
             </div>
             <div class="back">
                 <div class="box2">
-                   <a href="#" class="details-link wh-dark-text">{{:description}}</a>
+                   <p class="details-link wh-dark-text">{{:description}}</p>
                 {{if primaryAction}}
-                    <a href="{{:primaryAction.url}}" title="{{:primaryAction.url}}" target="_blank" class="details-link wh-dark-text">
+                    <p class="details-link wh-dark-text">
                         {{if primaryAction.label}}
                             {{:primaryAction.label}}
                         {{else}}
                             ...
                         {{/if}}
-                    </a>
+                    </p>
                 {{/if}}
                 <a href="#" class="read-more details-link wh-dark wh-light-text">Read More</a>
                 </div>
