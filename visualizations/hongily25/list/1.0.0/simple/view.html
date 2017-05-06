@@ -12,7 +12,11 @@
                      <div class="box1" style="background-image:url({{:image}});padding:0;background-size:cover;background-position:center"> 
                      <div class="image-box">
                          <img src="{{:image}}" style="border-radius:50px;height:100px;width:100px;margin-bottom:20px">
-                         <h4 class="wh-dark-text">{{:date}}</h4>
+                         <div style="display:flex">
+                             <div class="wh-dark" style="height: 1px;width: 60px;margin-top: 6px;margin-right: 5px;">&nbsp;</div>
+                             <h4 class="wh-dark-text">{{:date}}</h4>
+                             <div class="wh-dark" style="height: 1px;width: 60px;margin-top: 6px;margin-left: 5px;">&nbsp;</div>
+                        </div>
                          <h2 class="name wh-dark-text">{{:name}}</h2>
                     </div>
                     {{else}}
