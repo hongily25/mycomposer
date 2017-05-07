@@ -27,7 +27,7 @@ var VISUALIZATION = (function (visualization, window, document) {
         // http://www.jsviews.com/
 
                 $(function() {
-            $('.front').on('hover',function(e){
+            $('.panel').on('hover',function(e){
                 console.log("hover");
             });
         });
