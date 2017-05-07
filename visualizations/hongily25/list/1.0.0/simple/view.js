@@ -49,6 +49,8 @@ var VISUALIZATION = (function (visualization, window, document) {
         // Call handlers.ready for visualization to load
         handlers.ready();
 
+        console.log("debug");
+
         // Add detail view link after view is loaded
         $(function() {
             $('.details-link').on('click', function(e){
@@ -59,16 +61,6 @@ var VISUALIZATION = (function (visualization, window, document) {
 
                 // Call showDetail method with event id passed to display built in player detail window
                 handlers.showDetail(id);
-            });
-        });
-
-        $(function() {
-            $('.front').on('hover',function(e){
-                e.preventDefault();
-
-                $(this).style.animation = "moveKeyframe 2s 3";
-                console.log("hover")
-
             });
         });
 
