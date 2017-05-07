@@ -27,9 +27,7 @@ var VISUALIZATION = (function (visualization, window, document) {
         // http://www.jsviews.com/
 
         $(function() {
-            $('.panel').on('click',function(e){
                 console.log("click");
-            });
         });
 
         // Set defaults 
