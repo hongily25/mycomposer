@@ -63,7 +63,7 @@ var VISUALIZATION = (function (visualization, window, document) {
         });
 
         $(function() {
-            $('.col-3').on('hover',function(e){
+            $('.front').on('hover',function(e){
                 e.preventDefault();
 
                 $(this).style.animation = "moveKeyframe 2s 3";
