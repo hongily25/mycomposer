@@ -27,7 +27,7 @@ var VISUALIZATION = (function (visualization, window, document) {
         // http://www.jsviews.com/
 
         $(function() {
-                console.log("click");
+            $('.col-3').style.animation = "moveKeyframe 2s infinite";
         });
 
         // Set defaults 
