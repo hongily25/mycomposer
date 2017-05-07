@@ -26,9 +26,8 @@ var VISUALIZATION = (function (visualization, window, document) {
         // Sample visualization using JsRender for templates
         // http://www.jsviews.com/
 
-        $(function() {
-            $('.col-3').style.animation = "moveKeyframe 2s infinite";
-        });
+        $('.col-3').style.animation = "moveKeyframe 2s infinite";
+        console.log("Log");
 
         // Set defaults 
         var defaults = {
