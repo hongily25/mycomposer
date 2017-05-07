@@ -26,9 +26,9 @@ var VISUALIZATION = (function (visualization, window, document) {
         // Sample visualization using JsRender for templates
         // http://www.jsviews.com/
 
-                $(function() {
-            $('.panel').on('hover',function(e){
-                console.log("hover");
+        $(function() {
+            $('.panel').on('click',function(e){
+                console.log("click");
             });
         });
 
