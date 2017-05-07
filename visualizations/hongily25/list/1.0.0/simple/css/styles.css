@@ -165,3 +165,9 @@ a.read-more:hover {
 		position: static !important;
 	}
 }
+
+@keyframes moveKeyframe {
+  0% {left: 50px}
+  50% {left: -75px}
+  100% {left: 50px}
+} 

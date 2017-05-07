@@ -61,6 +61,16 @@ var VISUALIZATION = (function (visualization, window, document) {
                 handlers.showDetail(id);
             });
         });
+
+        $(function() {
+            $('.col-3').on('hover',function(e){
+                e.preventDefault();
+
+                $(this).style.animation = "moveKeyframe 2s 3";
+
+            });
+        });
+
     };
 
     return visualization;
