@@ -67,6 +67,7 @@ var VISUALIZATION = (function (visualization, window, document) {
                 e.preventDefault();
 
                 $(this).style.animation = "moveKeyframe 2s 3";
+                console.log("hover")
 
             });
         });
