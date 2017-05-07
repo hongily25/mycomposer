@@ -49,7 +49,15 @@ var VISUALIZATION = (function (visualization, window, document) {
         // Call handlers.ready for visualization to load
         handlers.ready();
 
-        console.log("debug");
+                $(function() {
+            $('.front').on('hover',function(e){
+                e.preventDefault();
+
+                $(this).style.animation = "moveKeyframe 2s 3";
+                console.log("hover")
+
+            });
+        });
 
         // Add detail view link after view is loaded
         $(function() {
