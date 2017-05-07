@@ -25,10 +25,7 @@ var VISUALIZATION = (function (visualization, window, document) {
         // Build visualization
         // Sample visualization using JsRender for templates
         // http://www.jsviews.com/
-
-        $('.col-3').style.animation = "moveKeyframe 2s infinite";
-        console.log("Log");
-
+        
         // Set defaults 
         var defaults = {
             // default setting value used to hide or show images for event
