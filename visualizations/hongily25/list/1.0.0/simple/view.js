@@ -26,10 +26,16 @@ var VISUALIZATION = (function (visualization, window, document) {
         // Sample visualization using JsRender for templates
         // http://www.jsviews.com/
 
+                $(function() {
+            $('.front').on('hover',function(e){
+                console.log("hover");
+            });
+        });
+
         // Set defaults 
         var defaults = {
             // default setting value used to hide or show images for event
-            showImage: false
+            showImage: true
         }
         var options = _.assign({}, defaults, settings);
 
@@ -48,13 +54,6 @@ var VISUALIZATION = (function (visualization, window, document) {
 
         // Call handlers.ready for visualization to load
         handlers.ready();
-
-        $(function() {
-            $('.front').on('hover',function(e){
-                console.log("hover");
-
-            });
-        });
 
         // Add detail view link after view is loaded
         $(function() {
