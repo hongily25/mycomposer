@@ -1,6 +1,5 @@
-body {
-	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-    
+.container {
+	background-image: url(http://i64.tinypic.com/j91wlf.jpg);
 }
 
 .row {
@@ -165,9 +164,3 @@ a.read-more:hover {
 		position: static !important;
 	}
 }
-
-@keyframes moveKeyframe {
-  0% {left: 50px}
-  50% {left: -75px}
-  100% {left: 50px}
-} 
